@@ -18,4 +18,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/{id}', [AnuncioController::class, 'redirecionar']);
+Route::get('/{id}', [AnuncioController::class, 'redirecionar'])->name('anuncio.redirecionar');

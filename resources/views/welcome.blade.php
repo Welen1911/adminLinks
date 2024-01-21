@@ -7,6 +7,6 @@
     <title>Document</title>
 </head>
 <body>
-    <a href="http://127.0.0.1:8000/1">Github</a>
+    <a href="{{ route('anuncio.redirecionar', 1) }}">Github</a>
 </body>
 </html>
